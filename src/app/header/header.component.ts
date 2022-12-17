@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   name = 'Esteban Manrupe';
-  business = 'group-a';
-  platform = 'department-a';
-  techDepartment = 'UED';
+  business = 'Marketing';
+  platform = 'Pricing';
+  techDepartment = 'MKT Unit';
   items = 56;
   ranking = 8;
   totalUsers = 24;
-  visits = 2.223;
+  visits = 2223;
 }

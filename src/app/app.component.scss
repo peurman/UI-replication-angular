@@ -1,8 +1,6 @@
 @use "../styles.scss" as *;
 
 .home {
-  font-size: 40px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   padding: 0;
   div {
@@ -11,18 +9,56 @@
     width: 100%;
     gap: 15px;
   }
-}
-input {
-  // width: 100%;
-  text-align: center;
-}
-.restContainer {
-  @include centerMeColumn;
-  div {
-    @include centerMeColumn;
-    p {
-      margin: 15px 0;
-      font-size: 18px;
+  .restContainer {
+    @include centerMeRow;
+    align-items: flex-start;
+    margin-top: 15px;
+
+    .leftColumn {
+      @include centerMeColumn;
+      width: 65%;
+      gap: 15px;
+      .leftFirstContainer {
+        @include centerMeColumn;
+        border: 1px solid $secondaryFontColor;
+        border-radius: 3px;
+        p {
+          margin: 15px 0;
+          font-size: 18px;
+        }
+      }
+      .leftSecondContainer {
+        @include centerMeColumn;
+        border: 1px solid $secondaryFontColor;
+        border-radius: 3px;
+      }
+    }
+    .rightColumn {
+      @include centerMeColumn;
+      width: 25%;
+      gap: 15px;
+      .rightFirstContainer {
+        @include centerMeColumn;
+        border: 1px solid $secondaryFontColor;
+        border-radius: 3px;
+        background-color: $secondaryBkgColor;
+        img {
+          padding: 10px;
+          width: 90%;
+        }
+        label {
+          padding: 10px;
+        }
+      }
+      .rightSecondContainer {
+        @include centerMeColumn;
+        border: 1px solid $secondaryFontColor;
+        border-radius: 3px;
+      }
     }
   }
+}
+
+input {
+  text-align: center;
 }

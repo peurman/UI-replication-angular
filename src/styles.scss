@@ -1,3 +1,11 @@
+$mainColor: lightgrey;
+$mainBkgColor: rgb(241, 240, 240);
+$secondaryBkgColor: white;
+$mainFontColor: rgb(33, 31, 31);
+$secondaryFontColor: rgb(181, 184, 184);
+$navBkgColor: rgb(17, 17, 59);
+$leftMargin: 6vw;
+
 @mixin centerMeColumn {
   display: flex;
   flex-direction: column;
@@ -14,5 +22,7 @@
 }
 body {
   margin: 0;
-  background-color: rgb(241, 240, 240);
+  background-color: $mainBkgColor;
+  color: $mainFontColor;
+  font-family: "Times New Roman", Times, serif;
 }

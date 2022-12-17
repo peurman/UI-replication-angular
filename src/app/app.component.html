@@ -2,10 +2,26 @@
   <app-navbar></app-navbar>
   <app-header></app-header>
   <div class="restContainer">
-    <div [innerHTML]="title"></div>
-    <div>
-      <p [innerHTML]="pContent"></p>
-      <input type="text" [placeholder]="inputValue" />
+    <div class="leftColumn">
+      <div class="leftFirstContainer">
+        <label>first container</label>
+        <p [innerHTML]="pContent"></p>
+        <div [innerHTML]="title"></div>
+        <input type="text" [placeholder]="inputValue" />
+      </div>
+      <div class="leftSecondContainer">
+        <label for="">second container</label>
+      </div>
+    </div>
+    <div class="rightColumn">
+      <div class="rightFirstContainer">
+        <label for="">third container</label>
+        <img src="../assets/radarChart.png" alt="" />
+        <label for="">third container</label>
+      </div>
+      <div class="rightSecondContainer">
+        <label for="">fourth container</label>
+      </div>
     </div>
   </div>
 </div>

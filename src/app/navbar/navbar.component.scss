@@ -1,9 +1,18 @@
 @use "../../styles" as *;
 
 .navBarDiv {
-  color: lightgrey;
-  font-size: 18px;
+  color: $mainColor;
   text-align: left;
-  background-color: rgb(12, 12, 30);
-  padding: 15px;
+  padding-left: 15px;
+  background-color: $navBkgColor;
+  padding: 7px 0 12px 0;
+  margin: 0;
+  label {
+    font-size: 13px;
+    color: $mainColor;
+    margin: 0;
+    padding: 0;
+    margin-left: $leftMargin;
+    width: 100%;
+  }
 }
