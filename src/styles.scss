@@ -1,0 +1,18 @@
+@mixin centerMeColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+@mixin centerMeRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+body {
+  // @include centerMeColumn;
+  background-color: rgb(241, 240, 240);
+}
