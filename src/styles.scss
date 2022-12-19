@@ -1,7 +1,7 @@
 $mainColor: lightgrey;
 $mainBkgColor: rgb(241, 240, 240);
 $secondaryBkgColor: white;
-$mainFontColor: rgb(33, 31, 31);
+$mainFontColor: rgb(48, 47, 47);
 $secondaryFontColor: rgb(181, 184, 184);
 $navBkgColor: rgb(17, 17, 59);
 $leftMargin: 6vw;
@@ -20,9 +20,20 @@ $leftMargin: 6vw;
   align-items: center;
   align-content: center;
 }
+@mixin titleFormat {
+  font-weight: bold;
+  font-size: 15px;
+  color: $mainFontColor;
+  text-align: left;
+  width: calc(100% - 2 * 15px);
+  padding: 15px;
+  margin: 0;
+  border-bottom: 2px solid $mainBkgColor;
+}
+
 body {
   margin: 0;
   background-color: $mainBkgColor;
   color: $mainFontColor;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }

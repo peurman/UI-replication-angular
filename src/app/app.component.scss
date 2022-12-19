@@ -39,16 +39,9 @@
       gap: 15px;
       .rightFirstContainer {
         @include centerMeColumn;
-        border: 1px solid $secondaryFontColor;
+        border: 1px solid $mainBkgColor;
         border-radius: 3px;
         background-color: $secondaryBkgColor;
-        img {
-          padding: 10px;
-          width: 90%;
-        }
-        label {
-          padding: 10px;
-        }
       }
       .rightSecondContainer {
         @include centerMeColumn;

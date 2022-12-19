@@ -57,8 +57,6 @@
         }
       }
       .rankings {
-        border-left: 1px solid $secondaryFontColor;
-        border-right: 1px solid $secondaryFontColor;
         padding: 0 15px;
         .rankingNumbers {
           @include centerMeRow;
@@ -73,6 +71,11 @@
             color: $secondaryFontColor;
           }
         }
+      }
+      #verticalLine {
+        color: $mainBkgColor;
+        font-size: 35px;
+        font-weight: 100;
       }
     }
   }
