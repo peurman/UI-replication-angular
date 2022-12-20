@@ -2,8 +2,9 @@
 
 .teamCardContainer {
   @include centerMeRow;
-  gap: 3px;
+  gap: 8px;
   justify-content: left;
+  margin: 5px 0;
   img {
     width: 20px;
     padding: 5px;

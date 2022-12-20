@@ -12,7 +12,7 @@
   .restContainer {
     @include centerMeRow;
     align-items: flex-start;
-    margin-top: $generalGap;
+    margin: $generalGap 0;
 
     .leftColumn {
       @include centerMeColumn;
@@ -37,8 +37,4 @@
       gap: $generalGap;
     }
   }
-}
-
-input {
-  text-align: center;
 }

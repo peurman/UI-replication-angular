@@ -13,5 +13,5 @@ export class HeaderComponent {
   items = 56;
   ranking = 8;
   totalUsers = 24;
-  visits = 2223;
+  visits = '2,223';
 }

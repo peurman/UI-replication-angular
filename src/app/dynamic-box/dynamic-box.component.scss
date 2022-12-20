@@ -7,4 +7,38 @@
   p {
     @include titleFormat;
   }
+  .restContainer {
+    width: calc(100% - 20px);
+    // padding: 10px;
+    .newsContainer {
+      @include centerMeRow;
+      justify-content: flex-start;
+      // width: calc(100% - 20px);
+      padding: 10px;
+      border-bottom: 2px solid $mainBkgColor;
+      &:last-child {
+        border: none;
+      }
+      .firstLine {
+        img {
+          width: 35px;
+          padding: 5px;
+        }
+      }
+      .secondLine {
+        @include centerMeColumn;
+        align-items: flex-start;
+        gap: 10px;
+        label {
+          font-weight: bold;
+          margin-left: 15px;
+          font-size: $secondaryTextSize;
+          &:last-child {
+            font-weight: normal;
+            color: $secondaryFontColor;
+          }
+        }
+      }
+    }
+  }
 }

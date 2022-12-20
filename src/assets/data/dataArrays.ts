@@ -9,6 +9,11 @@ export interface OnGoingBox {
   subtitle: string;
   published: string;
 }
+export interface dynamicBox {
+  imgUrl: string;
+  newsText: string;
+  published: string;
+}
 
 export const teamsArray: TeamBox[] = [
   {
@@ -81,5 +86,57 @@ export const onGoingArray: OnGoingBox[] = [
       'Life is like a box of chocolates, and the results are often unexpected.',
     subtitle: 'Lying you to learn computer',
     published: '2 years ago',
+  },
+];
+
+export const dynamicArray: dynamicBox[] = [
+  {
+    imgUrl: './../assets/avatars/avatar1.png',
+    newsText:
+      'Qu Lili in high force grid-day mission, the design of new projects iteration June',
+    published: '2 days ago',
+  },
+  {
+    imgUrl: './../assets/avatars/avatar2.png',
+    newsText:
+      'Pay little in high force grid-day mission, the design of new projects iteration June',
+    published: '2 days ago',
+  },
+  {
+    imgUrl: './../assets/avatars/avatar3.png',
+    newsText: 'Lin Dongdong in the two girls group New Project iteration June',
+    published: '2 days ago',
+  },
+  {
+    imgUrl: './../assets/avatars/avatar4.png',
+    newsText:
+      'Stars of the week will be May iterative routine update to a published state',
+    published: '2 days ago',
+  },
+  {
+    imgUrl: './../assets/avatars/avatar6.png',
+    newsText: 'Zhu-right in project performance has released a message',
+    published: '2 days ago',
+  },
+  {
+    imgUrl: './../assets/avatars/avatar7.png',
+    newsText: 'Lok in programmer daily New Project brand iteration',
+    published: '2 days ago',
+  },
+  {
+    imgUrl: './../assets/avatars/avatar8.png',
+    newsText: 'Lin Dongdong in the two girls group New Project iteration June',
+    published: '2 days ago',
+  },
+  {
+    imgUrl: './../assets/avatars/avatar9.png',
+    newsText: 'Zhu-right in project performance has released a message',
+    published: '2 days ago',
+  },
+  {
+    imgUrl: './../assets/avatars/avatar10.png',
+    newsText:
+      'Stars of the week will be May iterative routine update to a published state',
+    published: '2 days ago',
   },
 ];

@@ -1,4 +1,14 @@
 <div class="dynamicContainer">
   <p>dynamic</p>
-  <label>test</label>
+  <div class="restContainer">
+    <div class="newsContainer" *ngFor="let post of posts">
+      <div class="firstLine">
+        <img [src]="post.imgUrl" alt="" />
+      </div>
+      <div class="secondLine">
+        <label>{{ post.newsText }}</label>
+        <label>{{ post.published }}</label>
+      </div>
+    </div>
+  </div>
 </div>
