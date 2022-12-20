@@ -1,8 +1,10 @@
-@use "../styles.scss" as *;
+@use '../styles.scss' as *;
 
 .home {
   margin: 0;
   padding: 0;
+  // @include centerMeColumn;
+  width: 100%;
   div {
     @include centerMeColumn;
     justify-content: flex-start;
@@ -13,7 +15,6 @@
     @include centerMeRow;
     align-items: flex-start;
     margin: $generalGap 0;
-
     .leftColumn {
       @include centerMeColumn;
       width: $leftColumnWidth;
@@ -35,6 +36,14 @@
       @include centerMeColumn;
       width: $rightColumnWidth;
       gap: $generalGap;
+    }
+    @media screen and (max-width: 1000px) {
+      @include centerMeColumn;
+      width: 100%;
+      .rightColumn,
+      .leftColumn {
+        width: 90%;
+      }
     }
   }
 }

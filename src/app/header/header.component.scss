@@ -1,4 +1,4 @@
-@use "../../styles" as *;
+@use '../../styles' as *;
 
 .headerContainer {
   background-color: $secondaryBkgColor;
@@ -84,6 +84,20 @@
         color: $mainBkgColor;
         font-size: 35px;
         font-weight: 100;
+      }
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    @include centerMeRow;
+    width: 100%;
+    .restHeaderContainer {
+      @include centerMeColumn;
+      align-items: center;
+      .firstColumnHeader {
+        width: 90%;
+      }
+      .secondCardHeader {
+        width: 90%;
       }
     }
   }

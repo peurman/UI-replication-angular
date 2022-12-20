@@ -9,4 +9,7 @@ export class RadarChartComponent {
   personal = 34;
   team = 22;
   department = 23;
+  handleClick(event:any) {
+    alert(`this is a test, event type: "${event.type}", alt content: "${event.target.alt}"`)
+  }
 }

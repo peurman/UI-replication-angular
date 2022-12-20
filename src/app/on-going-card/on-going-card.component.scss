@@ -1,4 +1,4 @@
-@use "../../styles" as *;
+@use '../../styles' as *;
 
 .onGoingCardContainer {
   @include centerMeColumn;
@@ -26,7 +26,7 @@
     padding: 0 10px;
     label {
       font-size: $minimalTextSize;
-      font-family: "BespokeSerif-Light";
+      font-family: 'BespokeSerif-Light';
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
@@ -46,5 +46,8 @@
         color: $secondaryFontColor;
       }
     }
+  }
+  @media screen and (max-width: 1000px) {
+    height: 130px;
   }
 }

@@ -1,4 +1,4 @@
-@use "../../styles" as *;
+@use '../../styles' as *;
 
 .radarChartContainer {
   @include centerMeColumn;
@@ -10,6 +10,7 @@
   img {
     padding: 10px;
     width: 80%;
+    cursor: pointer;
   }
   .lastLineChart {
     @include centerMeRow;
