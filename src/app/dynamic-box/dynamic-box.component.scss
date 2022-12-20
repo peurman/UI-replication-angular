@@ -30,9 +30,14 @@
         align-items: flex-start;
         gap: 10px;
         label {
-          font-weight: bold;
+          font-weight: 500;
           margin-left: 15px;
           font-size: $secondaryTextSize;
+          em {
+            color: $specialColor;
+            font-weight: 600;
+            font-style: normal;
+          }
           &:last-child {
             font-weight: normal;
             color: $secondaryFontColor;

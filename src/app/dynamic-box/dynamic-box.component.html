@@ -6,7 +6,10 @@
         <img [src]="post.imgUrl" alt="" />
       </div>
       <div class="secondLine">
-        <label>{{ post.newsText }}</label>
+        <label
+          >{{ post.newsText1 }} <em>{{ post.newsText2 }}</em>
+          {{ post.newsText3 }} <em>{{ post.newsText4 }}</em></label
+        >
         <label>{{ post.published }}</label>
       </div>
     </div>

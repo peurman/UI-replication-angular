@@ -4,7 +4,7 @@
   background-color: $secondaryBkgColor;
   .restHeaderContainer {
     @include centerMeRow;
-    // justify-content: space-around;
+    align-items: flex-end;
     width: 100%;
     gap: $generalGap;
     .firstColumnHeader {
@@ -35,6 +35,11 @@
           .saluteLine {
             font-size: $mainTextSize;
             font-weight: 600;
+            em {
+              color: $specialColor;
+              font-weight: 600;
+              font-style: normal;
+            }
           }
           .secondLineSalute {
             font-size: $secondaryTextSize;
@@ -47,9 +52,10 @@
       @include centerMeRow;
       gap: 10px;
       width: $rightColumnWidth;
+      padding: 10px 0;
       div {
         @include centerMeColumn;
-        gap: 5px;
+        gap: 3px;
         font-size: $secondaryTextSize;
         label:first-child {
           color: $secondaryFontColor;

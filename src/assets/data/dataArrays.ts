@@ -11,7 +11,10 @@ export interface OnGoingBox {
 }
 export interface dynamicBox {
   imgUrl: string;
-  newsText: string;
+  newsText1: string;
+  newsText2: string;
+  newsText3: string;
+  newsText4: string;
   published: string;
 }
 
@@ -92,51 +95,74 @@ export const onGoingArray: OnGoingBox[] = [
 export const dynamicArray: dynamicBox[] = [
   {
     imgUrl: './../assets/avatars/avatar1.png',
-    newsText:
-      'Qu Lili in high force grid-day mission, the design of new projects iteration June',
+    newsText1: 'Qu Lili in',
+    newsText2: 'high force grid-day mission, the design',
+    newsText3: 'of new projects',
+    newsText4: 'iteration June',
     published: '2 days ago',
   },
   {
     imgUrl: './../assets/avatars/avatar2.png',
-    newsText:
-      'Pay little in high force grid-day mission, the design of new projects iteration June',
+    newsText1: 'Pay little in',
+    newsText2: 'high force grid-day mission, the design',
+    newsText3: 'of new projects',
+    newsText4: 'iteration June',
     published: '2 days ago',
   },
   {
     imgUrl: './../assets/avatars/avatar3.png',
-    newsText: 'Lin Dongdong in the two girls group New Project iteration June',
+    newsText1: 'Lin Dongdong in',
+    newsText2: 'the two girls group',
+    newsText3: 'New Project',
+    newsText4: 'iteration June',
     published: '2 days ago',
   },
   {
     imgUrl: './../assets/avatars/avatar4.png',
-    newsText:
-      'Stars of the week will be May iterative routine update to a published state',
+    newsText1: 'Stars of the week will be',
+    newsText2: 'May iterative routine',
+    newsText3: 'update to a published state',
+    newsText4: '',
     published: '2 days ago',
   },
   {
     imgUrl: './../assets/avatars/avatar6.png',
-    newsText: 'Zhu-right in project performance has released a message',
+    newsText1: 'Zhu-right in',
+    newsText2: 'project performance',
+    newsText3: 'has release',
+    newsText4: 'a message',
     published: '2 days ago',
   },
   {
     imgUrl: './../assets/avatars/avatar7.png',
-    newsText: 'Lok in programmer daily New Project brand iteration',
+    newsText1: 'Lok in',
+    newsText2: 'programmer daily',
+    newsText3: 'New Project',
+    newsText4: 'brand iteration',
     published: '2 days ago',
   },
   {
     imgUrl: './../assets/avatars/avatar8.png',
-    newsText: 'Lin Dongdong in the two girls group New Project iteration June',
+    newsText1: 'Lin Dongdong in',
+    newsText2: 'the two girls group',
+    newsText3: 'New Project',
+    newsText4: 'iteration June',
     published: '2 days ago',
   },
   {
     imgUrl: './../assets/avatars/avatar9.png',
-    newsText: 'Zhu-right in project performance has released a message',
+    newsText1: 'Zhu-right in',
+    newsText2: 'project performance',
+    newsText3: 'has release',
+    newsText4: 'a message',
     published: '2 days ago',
   },
   {
     imgUrl: './../assets/avatars/avatar10.png',
-    newsText:
-      'Stars of the week will be May iterative routine update to a published state',
+    newsText1: 'Pay little in',
+    newsText2: 'high force grid-day mission, the design',
+    newsText3: 'of new projects',
+    newsText4: 'iteration June',
     published: '2 days ago',
   },
 ];
