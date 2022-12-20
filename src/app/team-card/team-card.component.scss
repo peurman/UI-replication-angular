@@ -1,0 +1,19 @@
+@use "../../styles" as *;
+
+.teamCardContainer {
+  @include centerMeRow;
+  gap: 3px;
+  justify-content: left;
+  img {
+    width: 20px;
+    padding: 5px;
+  }
+  label {
+    font-size: $minimalTextSize;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

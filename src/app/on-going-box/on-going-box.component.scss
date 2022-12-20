@@ -1,0 +1,41 @@
+@use "../../styles" as *;
+
+.onGoingBoxContainer {
+  width: 100%;
+  @include centerMeColumn;
+  border-radius: 3px;
+  background-color: $secondaryBkgColor;
+  border: 2px solid $mainBkgColor;
+  .titleContainer {
+    @include centerMeRow;
+    justify-content: space-between;
+    width: calc(100% - 2 * 12px);
+    padding: 12px;
+    border-bottom: 1px solid $mainBkgColor;
+    p {
+      margin: 0;
+      font-weight: bold;
+      font-size: $titleTextSize;
+      text-align: left;
+      &:first-child {
+        color: $mainFontColor;
+      }
+      &:last-child {
+        font-size: 11px;
+        color: $specialColor;
+      }
+    }
+  }
+  .onGoingCardsContainer {
+    @include centerMeRow;
+    .firstColumnOnGoing {
+      width: 33%;
+    }
+    .secondColumnOnGoing {
+      width: 33%;
+    }
+    .thirdColumnOnGoing {
+      width: 34%;
+    }
+  }
+}

@@ -2,12 +2,14 @@
 
 .radarChartContainer {
   @include centerMeColumn;
+  border-radius: 3px;
+  background-color: $secondaryBkgColor;
   p {
     @include titleFormat;
   }
   img {
     padding: 10px;
-    width: 90%;
+    width: 80%;
   }
   .lastLineChart {
     @include centerMeRow;
@@ -17,24 +19,24 @@
       @include centerMeColumn;
       gap: 5px;
       label:last-child {
-        font-size: 22px;
+        font-size: $specialTextSize;
         font-weight: 600;
       }
       .RefAndTitle {
         @include centerMeRow;
         #titleRef {
-          font-size: 13px;
+          font-size: $secondaryTextSize;
           font-weight: normal;
           color: $secondaryFontColor;
         }
         #departmentColor {
-          color: rgb(20, 207, 82);
+          color: $colorRef1;
         }
         #personalColor {
-          color: blue;
+          color: $colorRef2;
         }
         #teamColor {
-          color: gold;
+          color: $colorRef3;
         }
       }
     }

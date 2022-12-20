@@ -1,0 +1,17 @@
+<div class="teamBoxContainer">
+  <p>team</p>
+  <div>
+    <div class="teamCardsContainer">
+      <div class="firstColumnTeam">
+        <div *ngFor="let team of teams; let i = index">
+          <app-team-card [teamObj]="team" *ngIf="i < 3"></app-team-card>
+        </div>
+      </div>
+      <div class="secondColumnTeam">
+        <div *ngFor="let team of teams; let i = index">
+          <app-team-card [teamObj]="team" *ngIf="i >= 3"></app-team-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

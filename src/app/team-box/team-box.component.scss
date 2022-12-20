@@ -1,0 +1,21 @@
+@use "../../styles" as *;
+
+.teamBoxContainer {
+  width: 100%;
+  @include centerMeColumn;
+  border-radius: 3px;
+  background-color: $secondaryBkgColor;
+  p {
+    @include titleFormat;
+  }
+  .teamCardsContainer {
+    @include centerMeRow;
+    padding: 10px;
+    .firstColumnTeam {
+      width: 50%;
+    }
+    .secondColumnTeam {
+      width: 50%;
+    }
+  }
+}

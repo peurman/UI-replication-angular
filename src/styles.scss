@@ -1,10 +1,21 @@
 $mainColor: lightgrey;
-$mainBkgColor: rgb(241, 240, 240);
+$mainBkgColor: #f1f0f0;
 $secondaryBkgColor: white;
-$mainFontColor: rgb(48, 47, 47);
-$secondaryFontColor: rgb(181, 184, 184);
-$navBkgColor: rgb(17, 17, 59);
-$leftMargin: 6vw;
+$mainFontColor: #302f2f;
+$secondaryFontColor: #b5b8b8;
+$navBkgColor: #11113b;
+$colorRef1: #14cf52;
+$colorRef2: blue;
+$colorRef3: gold;
+$specialColor: #3ad6c7;
+$mainTextSize: 16px;
+$titleTextSize: 14px;
+$secondaryTextSize: 12px;
+$specialTextSize: 19px;
+$minimalTextSize: 11.8px;
+$leftColumnWidth: 700px;
+$rightColumnWidth: 300px;
+$generalGap: 20px;
 
 @mixin centerMeColumn {
   display: flex;
@@ -22,11 +33,11 @@ $leftMargin: 6vw;
 }
 @mixin titleFormat {
   font-weight: bold;
-  font-size: 15px;
+  font-size: $titleTextSize;
   color: $mainFontColor;
   text-align: left;
-  width: calc(100% - 2 * 15px);
-  padding: 15px;
+  width: calc(100% - 2 * 12px);
+  padding: 12px;
   margin: 0;
   border-bottom: 2px solid $mainBkgColor;
 }

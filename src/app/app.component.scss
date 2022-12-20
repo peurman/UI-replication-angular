@@ -7,20 +7,19 @@
     @include centerMeColumn;
     justify-content: flex-start;
     width: 100%;
-    gap: 15px;
+    gap: $generalGap;
   }
   .restContainer {
     @include centerMeRow;
     align-items: flex-start;
-    margin-top: 15px;
+    margin-top: $generalGap;
 
     .leftColumn {
       @include centerMeColumn;
-      width: 65%;
-      gap: 15px;
+      width: $leftColumnWidth;
+      gap: $generalGap;
       .leftFirstContainer {
         @include centerMeColumn;
-        border: 1px solid $secondaryFontColor;
         border-radius: 3px;
         p {
           margin: 15px 0;
@@ -29,25 +28,13 @@
       }
       .leftSecondContainer {
         @include centerMeColumn;
-        border: 1px solid $secondaryFontColor;
         border-radius: 3px;
       }
     }
     .rightColumn {
       @include centerMeColumn;
-      width: 25%;
-      gap: 15px;
-      .rightFirstContainer {
-        @include centerMeColumn;
-        border: 1px solid $mainBkgColor;
-        border-radius: 3px;
-        background-color: $secondaryBkgColor;
-      }
-      .rightSecondContainer {
-        @include centerMeColumn;
-        border: 1px solid $secondaryFontColor;
-        border-radius: 3px;
-      }
+      width: $rightColumnWidth;
+      gap: $generalGap;
     }
   }
 }

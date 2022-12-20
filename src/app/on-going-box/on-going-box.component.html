@@ -1,0 +1,32 @@
+<div class="onGoingBoxContainer">
+  <div class="titleContainer">
+    <p>Ongoing project</p>
+    <p>All items</p>
+  </div>
+  <div class="onGoingCardsContainer">
+    <div class="firstColumnOnGoing">
+      <div *ngFor="let issue of onGoingIssues; let i = index">
+        <app-on-going-card
+          [issueObj]="issue"
+          *ngIf="i === 0 || i === 1"
+        ></app-on-going-card>
+      </div>
+    </div>
+    <div class="secondColumnOnGoing">
+      <div *ngFor="let issue of onGoingIssues; let i = index">
+        <app-on-going-card
+          [issueObj]="issue"
+          *ngIf="i === 2 || i === 3"
+        ></app-on-going-card>
+      </div>
+    </div>
+    <div class="thirdColumnOnGoing">
+      <div *ngFor="let issue of onGoingIssues; let i = index">
+        <app-on-going-card
+          [issueObj]="issue"
+          *ngIf="i === 4 || i === 5"
+        ></app-on-going-card>
+      </div>
+    </div>
+  </div>
+</div>

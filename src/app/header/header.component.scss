@@ -2,66 +2,68 @@
 
 .headerContainer {
   background-color: $secondaryBkgColor;
-  @include centerMeColumn;
-  gap: 10px;
-  justify-content: space-around;
-  .pathRootHeader {
-    width: 100%;
-    margin-top: 10px;
-    label {
-      color: $secondaryFontColor;
-      margin-left: $leftMargin;
-      font-size: 13px;
-    }
-  }
   .restHeaderContainer {
     @include centerMeRow;
-    justify-content: space-around;
+    // justify-content: space-around;
     width: 100%;
-    gap: 15px;
-    .firstCardHeader {
-      @include centerMeRow;
-      gap: 5px;
-      img {
-        width: 50px;
-        padding: 10px;
-      }
-      .saluteAndText {
-        @include centerMeColumn;
-        align-items: flex-start;
-        padding: 10px 0;
-        gap: 12px;
-        .saluteLine {
-          font-size: 17px;
-          font-weight: 600;
-        }
-        .secondLineSalute {
-          font-size: 15px;
+    gap: $generalGap;
+    .firstColumnHeader {
+      @include centerMeColumn;
+      align-items: flex-start;
+      width: $leftColumnWidth;
+      .pathRootHeader {
+        margin: 10px 0;
+        label {
           color: $secondaryFontColor;
+          margin-left: 10px;
+          font-size: $secondaryTextSize;
+        }
+      }
+      .firstCardHeader {
+        @include centerMeRow;
+        // width: 100%;
+        gap: 5px;
+        img {
+          width: 50px;
+          padding: 10px;
+        }
+        .saluteAndText {
+          @include centerMeColumn;
+          align-items: flex-start;
+          padding: 10px 0;
+          gap: 12px;
+          .saluteLine {
+            font-size: $mainTextSize;
+            font-weight: 600;
+          }
+          .secondLineSalute {
+            font-size: $secondaryTextSize;
+            color: $secondaryFontColor;
+          }
         }
       }
     }
     .secondCardHeader {
       @include centerMeRow;
-      gap: 15px;
+      gap: 10px;
+      width: $rightColumnWidth;
       div {
         @include centerMeColumn;
         gap: 5px;
-        font-size: 13px;
+        font-size: $secondaryTextSize;
         label:first-child {
           color: $secondaryFontColor;
         }
         label:last-child {
-          font-size: 22px;
+          font-size: $specialTextSize;
           font-weight: 600;
         }
       }
       .rankings {
-        padding: 0 15px;
         .rankingNumbers {
           @include centerMeRow;
           label:first-child {
-            font-size: 22px;
+            font-size: $specialTextSize;
             font-weight: 600;
             color: $mainFontColor;
           }

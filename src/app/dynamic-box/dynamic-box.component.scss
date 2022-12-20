@@ -1,0 +1,10 @@
+@use "../../styles" as *;
+
+.dynamicContainer {
+  @include centerMeColumn;
+  border-radius: 3px;
+  background-color: $secondaryBkgColor;
+  p {
+    @include titleFormat;
+  }
+}

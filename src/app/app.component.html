@@ -4,22 +4,15 @@
   <div class="restContainer">
     <div class="leftColumn">
       <div class="leftFirstContainer">
-        <label>first container</label>
-        <p [innerHTML]="pContent"></p>
-        <div [innerHTML]="title"></div>
-        <input type="text" [placeholder]="inputValue" />
+        <app-on-going-box style="width: 100%"></app-on-going-box>
       </div>
       <div class="leftSecondContainer">
-        <label for="">second container</label>
+        <app-dynamic-box style="width: 100%"></app-dynamic-box>
       </div>
     </div>
     <div class="rightColumn">
-      <div class="rightFirstContainer">
-        <app-radar-chart></app-radar-chart>
-      </div>
-      <div class="rightSecondContainer">
-        <label for="">fourth container</label>
-      </div>
+      <app-radar-chart style="width: 100%"></app-radar-chart>
+      <app-team-box style="width: 100%"></app-team-box>
     </div>
   </div>
 </div>
