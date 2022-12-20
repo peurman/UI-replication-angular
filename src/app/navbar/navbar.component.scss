@@ -7,7 +7,7 @@
   padding: 7px 0 12px 0;
   margin: 0;
   .navSection {
-    width: 90%;
+    width: min(1020px, 100vw);
     label {
       text-align: left;
       font-size: $secondaryTextSize;
