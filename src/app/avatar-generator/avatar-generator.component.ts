@@ -9,6 +9,7 @@ export class AvatarGeneratorComponent {
   finalPath : string = "";
   handleChange(event:any){
    if(event.target.value) this.finalPath= "https://api.multiavatar.com/"+event.target.value+".png";
+   else this.finalPath= "";
   }
 
 }
