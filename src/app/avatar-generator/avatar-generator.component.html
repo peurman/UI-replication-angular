@@ -1,0 +1,11 @@
+<div class="radarChartContainer">
+  <p>Avatar generator</p>
+  <input type="text" placeholder="type your nickname and press Enter" (change)="handleChange($event)">
+  <label>Here is your avatar:</label>
+  <div *ngIf="finalPath !== ''">
+    <img [src]='finalPath' title="avatar image" alt="avatar image" />
+  </div>
+  <div *ngIf="finalPath === ''">
+    <label> Your avatar will be here</label>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+@use '../../styles' as *;
+
+.radarChartContainer {
+  @include centerMeColumn;
+  border-radius: 3px;
+  background-color: $secondaryBkgColor;
+  p {
+    @include titleFormat;
+  }
+  input {
+    margin: 5px 0;
+    padding: 5px;
+    width: $avatarGenWidth;
+    border: 2px solid $specialColor;
+    border-radius: 3px;
+    font-family: 'BespokeSerif';
+    font-style: italic;
+    text-align: center;
+  }
+  label {
+    font-size: $secondaryTextSize;
+    font-family: 'BespokeSerif-Bold';
+    padding: 5px;
+    &:last-child {
+      font-size: $mainTextSize;
+      font-family: 'BespokeSerif';
+      text-align: center;
+      color: $specialColor;
+    }
+  }
+  div {
+    @include centerMeRow;
+    width: calc($avatarGenWidth + 10px);
+    height: calc($avatarGenWidth + 10px);
+    border-radius: 5px;
+    border: 2px solid $specialColor;
+    margin-bottom: 15px;
+    img {
+      padding: 10px;
+      width: 90%;
+      height: 90%;
+    }
+  }
+}

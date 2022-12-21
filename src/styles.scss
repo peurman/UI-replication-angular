@@ -16,26 +16,27 @@ $specialTextSize2: 21px;
 $minimalTextSize: 12px;
 $leftColumnWidth: 700px;
 $rightColumnWidth: 300px;
+$avatarGenWidth: 250px;
 $generalGap: 20px;
 
 @font-face {
-  font-family: "BespokeSerif-Bold";
-  src: url("./assets/fonts/BespokeSerif-Bold.woff2") format("woff2"),
-    url("./assets/fonts/BespokeSerif-Bold.woff") format("woff");
+  font-family: 'BespokeSerif-Bold';
+  src: url('./assets/fonts/BespokeSerif-Bold.woff2') format('woff2'),
+    url('./assets/fonts/BespokeSerif-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "BespokeSerif-Light";
-  src: url("./assets/fonts/BespokeSerif-Light.woff2") format("woff2"),
-    url("./assets/fonts/BespokeSerif-Light.woff") format("woff");
+  font-family: 'BespokeSerif-Light';
+  src: url('./assets/fonts/BespokeSerif-Light.woff2') format('woff2'),
+    url('./assets/fonts/BespokeSerif-Light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "BespokeSerif";
-  src: url("./assets/fonts/BespokeSerif-Regular.woff2") format("woff2"),
-    url("./assets/fonts/BespokeSerif-Regular.woff") format("woff");
+  font-family: 'BespokeSerif';
+  src: url('./assets/fonts/BespokeSerif-Regular.woff2') format('woff2'),
+    url('./assets/fonts/BespokeSerif-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -55,7 +56,7 @@ $generalGap: 20px;
   align-content: center;
 }
 @mixin titleFormat {
-  font-family: "BespokeSerif-Bold";
+  font-family: 'BespokeSerif-Bold';
   font-size: $titleTextSize;
   color: $mainFontColor;
   text-align: left;
@@ -69,5 +70,5 @@ body {
   margin: 0;
   background-color: $mainBkgColor;
   color: $mainFontColor;
-  font-family: "BespokeSerif";
+  font-family: 'BespokeSerif';
 }

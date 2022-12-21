@@ -11,9 +11,10 @@ import { TeamCardComponent } from './team-card/team-card.component';
 import { OnGoingBoxComponent } from './on-going-box/on-going-box.component';
 import { OnGoingCardComponent } from './on-going-card/on-going-card.component';
 import { DynamicBoxComponent } from './dynamic-box/dynamic-box.component';
+import { AvatarGeneratorComponent } from './avatar-generator/avatar-generator.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HeaderComponent, RadarChartComponent, TeamBoxComponent, TeamCardComponent, OnGoingBoxComponent, OnGoingCardComponent, DynamicBoxComponent],
+  declarations: [AppComponent, NavbarComponent, HeaderComponent, RadarChartComponent, TeamBoxComponent, TeamCardComponent, OnGoingBoxComponent, OnGoingCardComponent, DynamicBoxComponent, AvatarGeneratorComponent],
   imports: [BrowserModule, CommonModule],
   providers: [],
   bootstrap: [AppComponent],
