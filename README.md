@@ -25,4 +25,4 @@ How to get extra points?<br/>
 ◽ Uploading the code on any free hosting and provide the URL<br/>
 ◽ Using event binding or two-way binding to add some kind of functionality to the page<br/>
 
-These web was **`deployed in Vercel`**, so you can go there by clicking **<a target="_blank" href="https://angular-app-peurman.vercel.app/">HERE</a>**
+These web was **`deployed in Netlify`**, so you can go there by clicking **<a target="_blank" href="https://ui-to-copy-peurman.netlify.app/">HERE</a>**
