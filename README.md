@@ -2,7 +2,11 @@
 
 ![app-home](/appAndModel.jpg)
 
-## Week 4 - Part2 - Exercise 2
+(created on December 2022)
+<br/>
+* *Deploy*: **<a target="_blank" href="https://ui-to-copy-peurman.netlify.app/">HERE</a>**
+
+## Angular Trainee Program - week 4
 
 This **angular project** translates the static design of the image above ('Model' part) into components ('App' part), so the image compares both parts<br/>
 
@@ -25,4 +29,4 @@ How to get extra points?<br/>
 ◽ Uploading the code on any free hosting and provide the URL<br/>
 ◽ Using event binding or two-way binding to add some kind of functionality to the page<br/>
 
-These web was **`deployed in Netlify`**, so you can go there by clicking **<a target="_blank" href="https://ui-to-copy-peurman.netlify.app/">HERE</a>**
+I hope you like it!
