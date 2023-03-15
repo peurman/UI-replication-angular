@@ -30,3 +30,21 @@ How to get extra points?<br/>
 ◽ Using event binding or two-way binding to add some kind of functionality to the page<br/>
 
 I hope you like it!
+
+---
+
+## Using this app
+
+First of all, you have to run the command `npm install` or `npm i` to install all the dependencies listed in the package.json file.
+
+### Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+### Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+### Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
